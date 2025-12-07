@@ -43,24 +43,17 @@ It contains links to:
 ---
 
 ## 2. Dyslexia Text Simplifier
-This is the core feature designed to impress judges.
-
-### User Options
-**Reading Level**
-- Beginner  
-- Intermediate  
-- Advanced  
+This is the core feature designed to help people read.
 
 ### Workflow
-- User pastes text  
-- Selects reading level + severity of condition  
+- User pastes text   
 - Clicks Simplify  
 - Receives a cleaner, easier-to-read output  
 
 ---
 
 ## 3. Awareness Page
-A simple but impactful page that highlights the flight of hundreds of millions of people worldwide.
+A simple but impactful page that highlights the plight of hundreds of millions of people worldwide.
 ### Sections
 - What dyslexia is  
 - Common myths (busted)  
@@ -79,7 +72,7 @@ A minimal page for credibility and professionalism.
 - Mission statement  
 - Why the team built Readify  
 - Short bios of the 3 members  
-- “Built in 48 hours during X Hackathon”  
+- “Built in 48 hours during ByteBattle Hackathon”  
 
 ---
 
@@ -89,6 +82,5 @@ The Settings page boosts accessibility points.
 ### Toggles
 - Dyslexia-friendly font  
 - Font size  
-- Line spacing  
-- Dark mode  
+- Line spacing   
 - High contrast mode
