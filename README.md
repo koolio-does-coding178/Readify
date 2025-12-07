@@ -3,7 +3,8 @@ Readify is a simple AI-powered tool that rewrites complex text into clear, dysle
 
 ## Member Duties
 - **Prithvi** : Frontend (HTML+CSS)  
-- **Agrim and Vedant** : AI Integration and JS
+- **Vedant** : AI Integration and JS
+- **Agrim** : Presenter
 
 ## Technologies/Programming Languages used
 - HTML  
@@ -31,7 +32,7 @@ It contains links to:
 - Dyslexia Simplifier  
 - Awareness Page  
 - About Page  
-- Settings (optional)
+- Settings
 
 
 ---
@@ -74,7 +75,4 @@ A minimal page for credibility and professionalism.
 The Settings sidebar boosts accessibility points.
 
 ### Toggles
-- Dyslexia-friendly font  
-- Font size  
-- Line spacing   
-- High contrast mode
+- Dark Mode
