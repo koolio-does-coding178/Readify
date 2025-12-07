@@ -1,3 +1,4 @@
+
 import express from "express";
 import cors from "cors";
 import dotenv from "dotenv";
@@ -66,8 +67,5 @@ app.post("/simplify", async (req, res) => {
     res.status(500).json({ error: "Something went wrong" });
   }
 });
-
-// Serve frontend static files AFTER API routes
-app.use(express.static(path.join(__dirname, "../frontend")));
 
 app.listen(PORT, () => console.log(`Server running on http://localhost:${PORT}`));
