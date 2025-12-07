@@ -16,7 +16,7 @@ Readify is a simple AI-powered tool that rewrites complex text into clear, dysle
 # Website Structure and Design
 
 ## Readify  
-**Different Is Better**
+** Reading, But Better**
 
 Readify is a simple, accessibility-focused web app created to help students with dyslexia read more comfortably. Built with a clean, Apple-style UI and a focus on clarity, accessibility, and ease of use.
 
@@ -33,12 +33,6 @@ It contains links to:
 - About Page  
 - Settings (optional)
 
-### Design Goals:
-- Clean aesthetic  
-- Smooth fade-in animations  
-- Rounded minimal buttons  
-- Spacious layout  
-- Dyslexia-friendly font toggle
 
 ---
 
@@ -48,7 +42,7 @@ This is the core feature designed to help people read.
 ### Workflow
 - User pastes text   
 - Clicks Simplify  
-- Receives a cleaner, easier-to-read output  
+- Receives a cleaner, easier-to-read output with a dyslexia-friendly font
 
 ---
 
@@ -76,8 +70,8 @@ A minimal page for credibility and professionalism.
 
 ---
 
-## 5. Settings Page
-The Settings page boosts accessibility points.
+## 5. Settings
+The Settings sidebar boosts accessibility points.
 
 ### Toggles
 - Dyslexia-friendly font  
