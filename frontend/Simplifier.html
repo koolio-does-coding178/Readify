@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simplifier</title>
+    <link rel="stylesheet" href="styles2.css">
+    <link rel="stylesheet" href="global.css">
+</head>
+
+<body>
+
+<header class="navbar">
+    <img src="Untitled.png" class="nav-logo">
+
+    <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="simplifier.html">Dyslexia Text Simplifier</a>
+        <a href="awareness.html">Awareness</a>
+        <a href="about.html">About</a>
+        <a href="settings.html">Settings</a>
+    </nav>
+</header>
+
+<h2 class="fade-in-text">How it Works</h2>
+<p class="fade-in-text"><b>makes reading easier by letting you simplify any text with just one step.
+     You simply type or paste your text into the first box, and the tool instantly rewrites 
+     it in a clearer, more readable form in the second box. If you prefer listening, you can tap
+      the “Read Aloud” button and the tool will speak the simplified text out loud, helping you
+       understand it without the stress of heavy reading. This feature is especially helpful for 
+       people with dyslexia who process information better through audio or simplified wording.</b> </p>
+    
+<h2 class="fade-in-text">Use the tool</h2>
+
+<div class="tool-container">
+    <div class="input-section">
+        <h3>Enter your text:</h3>
+        <textarea id="userText" rows="8" cols="50" placeholder="Type or paste your text here..."></textarea>
+        <button id="simplifyBtn" class="btn-primary">Simplify Text</button>
+    </div>
+
+    <div class="output-section">
+        <h3>Simplified text:</h3>
+        <div id="output" class="output-box">Click 'Simplify Text' to see the result here...</div>
+        
+        <div class="voice-buttons">
+            <button id="femaleVoice" class="btn-voice">🚺 Female Voice</button>
+            <button id="maleVoice" class="btn-voice">🚹 Male Voice</button>
+        </div>
+    </div>
+</div>
+
+<script src="index.js"></script>
+</body>
+</html>

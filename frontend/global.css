@@ -1,0 +1,73 @@
+/* Smooth transitions for all colors/backgrounds */
+body, .navbar, .nav-links a, .dark-toggle, .title-box, #intro {
+    transition: background 0.3s, color 0.3s;
+}
+
+/* DARK MODE OVERRIDES */
+.dark-mode {
+    background-color: #0d0f12;
+    color: #e2e2e2;
+}
+
+.dark-mode .navbar {
+    background: #0d0f12;
+}
+
+.dark-mode .nav-links a {
+    background: #1b1e22;
+    color: #e2e2e2;
+}
+
+.dark-mode .nav-links a:hover {
+    background: #3a3f45;
+}
+
+.dark-mode .dark-toggle {
+    background: #1b1e22;
+    color: #e2e2e2;
+}
+
+.dark-mode .dark-toggle:hover {
+    background: #3a3f45;
+}
+
+.dark-mode .title-box {
+    background-color: #3a73ff;
+}
+
+.dark-mode #intro {
+    background: #1b1e22;
+    color: #e2e2e2;
+}
+/* Default font */
+body {
+  font-family: Arial, sans-serif;
+  transition: all 0.25s ease;
+}
+
+/* Dyslexic Font Mode */
+.dyslexic-font {
+  font-family: "OpenDyslexic", Arial, sans-serif !important;
+}
+
+/* High Contrast Mode */
+.high-contrast {
+  background: black !important;
+  color: yellow !important;
+}
+
+/* Font size scaling */
+body[data-font-size] {
+  font-size: var(--fontSize);
+}
+
+@font-face {
+    font-family: 'OpenDyslexic';
+    src: url('OpenDyslexic-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'OpenDyslexic', Arial, sans-serif;
+}

@@ -1,0 +1,21 @@
+{
+  "name": "readify-main",
+  "version": "1.0.0",
+  "description": "Readify is a simple AI-powered tool that rewrites complex text into clear, dyslexia-friendly language with better spacing, fonts and readability. It also gives word meanings, quick quizzes and text-to-speech so students understand faster and learn with confidence.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/koolio-does-coding178/Readify.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/koolio-does-coding178/Readify/issues"
+  },
+  "homepage": "https://github.com/koolio-does-coding178/Readify#readme"
+}
